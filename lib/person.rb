@@ -6,6 +6,6 @@ class Person
   def initialize(attributes=nil)
     if attributes 
       attributes.each do |k,v|
-        self.send
+        self.send("#Key=")
   end
 end
